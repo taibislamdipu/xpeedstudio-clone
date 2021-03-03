@@ -1,0 +1,30 @@
+
+
+.main-header{
+    height: 500px;
+    
+}
+
+ul {
+    list-style-type: none;
+  }
+  
+.services li{
+    float: left;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.services li a{
+    padding: 10px;
+    color: #000;
+}
+
+.services li a:hover{
+    background: red;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}

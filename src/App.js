@@ -1,10 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import MainHeader from './components/Navbar/MainHeader/MainHeader';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <h1>xpeedstudio-clone is coming soon!</h1>
+      <Navbar></Navbar>
+      <hr />
+      <MainHeader></MainHeader>
     </div>
   );
 }
